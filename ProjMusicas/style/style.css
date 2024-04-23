@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+    font-family: 'musicalina' ;
+    src: url('fonte/musicalina.ttf') format(truetype),
+    url('fonte/musicalina.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p{
+    color: #444;
+    font-size: 14px;
+}
+
+/*Barra de Navegação*/
+
+header, .navbar{
+    background-color: #353D41;
+}
+
+
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 65px;
+    height: 65px;
+    font-size: 2.5em;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+
+
+.navbar-brand{
+    padding: 0;
+    color: #FFF;
+    font-family: 'musicalina';
+    font-size: 2.5em;
+}
+
+.navbar-brand:hover{
+    color: #FFF;
+}
+
+#navbar-links a{
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem.8rem; /*Transfere o tamanho da fonte para 1rem e 8rem refer-se a 80% desse valor*/
+}
+/*Principal*/
+
+main{
+    margin-top: 100px;
+}
+
+main > div{
+    height: 280px;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > div:last-child{
+    margin-bottom: 100px;
+}
+
+div > .topbar > h4{
+    background-color: #FF5757;
+    color: white;
+    padding: 3px;
+    text-shadow: 1px 1px 2px black;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+div.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+
+div.imagens > .artist > a > img{
+    margin-top: 40px;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    box-shadow: 1px 2px 2px black;
+    /* background-color: gray; */
+}
+
+div.imagens > a{
+    text-decoration: none;
+}
+
+div.imagens > a >  p{
+    color: black;
+}
+
+div.imagens > a > p:hover{
+    color: #4d5154;
+}
+
+
+
+/*Rodapé*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: auto;
+    color: white;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer > div > strong,p{
+    cursor: pointer;
+    color: white;
+}
+
+footer > div > img{
+    cursor: pointer;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+
+
+

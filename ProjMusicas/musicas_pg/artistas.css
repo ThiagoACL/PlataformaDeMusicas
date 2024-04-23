@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'musicalina' ;
+    src: url('../fonte/musicalina.ttf') format(truetype),
+    url('../fonte/musicalina.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p,li{
+    color: #444;
+    font-size: 14px;
+}
+
+/*Barra de Navegação*/
+
+header, .navbar{
+    background-color: #353D41;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 65px;
+    height: 65px;
+    font-size: 2.5em;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #FFF;
+    font-family: 'musicalina';
+    font-size: 2.5em;
+}
+
+.navbar-brand:hover{
+    color: #FFF;
+}
+
+#navbar-links a{
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem.8rem; /*Transfere o tamanho da fonte para 1rem e 8rem refer-se a 80% desse valor*/
+}
+/*Principal*/
+
+main{
+    margin-top: 100px;
+}
+
+td.imagens{
+    width: 200px;
+    cursor: pointer;
+}
+
+td.musicas{
+    display: flex;
+}
+
+td.musicas > audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Rodapé*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: auto;
+    color: white;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer > div > strong,p{
+    cursor: pointer;
+    color: white;
+}
+
+footer > div > img{
+    cursor: pointer;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+
+
+
